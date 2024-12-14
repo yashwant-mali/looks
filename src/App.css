@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .animated-text {
+    animation: textGlow 1.5s infinite alternate;
+  }
+  
+  @keyframes textGlow {
+    0% { text-shadow: 0 0 5px #aaa; }
+    100% { text-shadow: 0 0 20px #007bff; }
+  }
+  
+  .zoom-effect:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+  
+  .photo-gallery .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .photo-gallery .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-gallery .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .features-section {
+    background-color: #f8f9fa;
+    padding: 3rem 1rem;
+  }
+  
+  .section-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  .nav{
+    background-color: rgb(206, 167, 250);   
+  }
+
+  /* Testimonials Section */
+.testimonials-section {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .testimonial-box {
+    background-color: #495057;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .testimonial-box p {
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+  
+  .testimonial-box h5 {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-section .btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  
+  /* About Us Section */
+  .about-us-section {
+    background-color: #f8f9fa;
+  }
+  
+  .about-us-section p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
